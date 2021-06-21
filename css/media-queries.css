@@ -77,7 +77,18 @@
       display: flex;
       justify-content: center;
   }
-
+  .sections{
+      display: flex;
+      justify-content: space-between;
+  }
+  .main{
+      width: 50%;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .sub-section{
+      width: 45%;
+  }
 }
 
 

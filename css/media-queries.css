@@ -44,8 +44,6 @@
     }
 }
 
-/* code for desktop display*/
-
 @media screen and (min-width: 934px) {
     body {
         width: 100%;
@@ -88,22 +86,20 @@
         justify-content: space-between;
     }
     .main {
-        width: 60%;
-        padding: 0 5px;
-
-    }
-    .main > p {
-        flex-wrap: nowrap;
+        width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
 
     }
     .sub-section {
-        width: 40%;
-        padding: 0 5px;
+        font-style: italic;
+        width: 50%;
+    }
+}
 
-    }
-    .sub-section {
-        flex-wrap: nowrap;
-    }
+footer{
+    position: absolute;
+    bottom: 0;
 }
 
 

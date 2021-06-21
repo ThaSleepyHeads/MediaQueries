@@ -83,10 +83,11 @@
 
     .sections {
         display: flex;
+        justify-content: space-between;
     }
     .main {
       width: 60%;
-        padding: 0 10px;
+        padding: 0 5px;
 
     }
     .main > p {
@@ -95,12 +96,14 @@
     }
     .sub-section {
         width: 40%;
-        padding: 0 10px;
+        padding: 0 5px;
 
     }
     .sub-section {
         flex-wrap: nowrap;
     }
+
+
 
 }
 
